@@ -1,0 +1,81 @@
+System:    Kernel: 5.10.0-18-amd64 [5.10.140-1] x86_64 bits: 64 compiler: gcc v: 10.2.1 
+           parameters: BOOT_IMAGE=/boot/vmlinuz-5.10.0-18-amd64 
+           root=UUID=<filter> ro quiet splash 
+           Desktop: Fluxbox 1.3.7 info: tint2 vt: 7 dm: LightDM 1.26.0 
+           Distro: MX-21.2.1_fluxbox_x64 Wildflower September 18  2022 
+           base: Debian GNU/Linux 11 (bullseye) 
+Machine:   Type: Laptop System: DIGITALCLICK product: Dicle CLICKBOOK D11 v: 1 serial: <filter> 
+           Mobo: DIGITALCLICK model: Dicle CLICKBOOK D11 v: 1.0 serial: <filter> 
+           UEFI: American Megatrends v: 8.18 date: 08/12/2020 
+Battery:   ID-1: axp288_fuel_gauge charge: 85% condition: N/A volts: 4.1 min: N/A model: N/A 
+           type: Li-ion serial: N/A status: Charging 
+CPU:       Info: Quad Core model: Intel Atom x5-Z8350 bits: 64 type: MCP arch: Airmont family: 6 
+           model-id: 4C (76) stepping: 4 microcode: 411 cache: L2: 1024 KiB 
+           flags: lm nx pae sse sse2 sse3 sse4_1 sse4_2 ssse3 vmx bogomips: 11520 
+           Speed: 1660 MHz min/max: 480/1920 MHz Core speeds (MHz): 1: 1660 2: 1625 3: 1696 
+           4: 1688 
+           Vulnerabilities: Type: itlb_multihit status: Not affected 
+           Type: l1tf status: Not affected 
+           Type: mds mitigation: Clear CPU buffers; SMT disabled 
+           Type: meltdown mitigation: PTI 
+           Type: mmio_stale_data status: Unknown: No mitigations 
+           Type: retbleed status: Not affected 
+           Type: spec_store_bypass status: Not affected 
+           Type: spectre_v1 mitigation: usercopy/swapgs barriers and __user pointer sanitization 
+           Type: spectre_v2 mitigation: Retpolines, IBPB: conditional, IBRS_FW, STIBP: disabled, 
+           RSB filling, PBRSB-eIBRS: Not affected 
+           Type: srbds status: Not affected 
+           Type: tsx_async_abort status: Not affected 
+Graphics:  Device-1: Intel Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Integrated Graphics 
+           driver: i915 v: kernel bus-ID: 00:02.0 chip-ID: 8086:22b0 class-ID: 0300 
+           Device-2: Microdia HP Integrated Webcam type: USB driver: uvcvideo bus-ID: 1-4:3 
+           chip-ID: 0c45:6321 class-ID: 0e02 
+           Display: x11 server: X.Org 1.20.11 driver: loaded: modesetting unloaded: fbdev,vesa 
+           display-ID: :0 screens: 1 
+           Screen-1: 0 s-res: 1920x1080 s-dpi: 96 s-size: 508x285mm (20.0x11.2") 
+           s-diag: 582mm (22.9") 
+           Monitor-1: eDP-1 res: 1920x1080 hz: 60 dpi: 190 size: 256x144mm (10.1x5.7") 
+           diag: 294mm (11.6") 
+           Monitor-2: HDMI-1 res: 1920x1080 hz: 60 dpi: 70 size: 697x392mm (27.4x15.4") 
+           diag: 800mm (31.5") 
+           OpenGL: renderer: Mesa DRI Intel HD Graphics (CHV) v: 4.6 Mesa 20.3.5 compat-v: 3.0 
+           direct render: Yes 
+Audio:     Device-1: Intel Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series Imaging Unit 
+           driver: intel_atomisp2_pm v: kernel bus-ID: 00:03.0 chip-ID: 8086:22b8 class-ID: 0480 
+           Sound Server-1: ALSA v: k5.10.0-18-amd64 running: yes 
+           Sound Server-2: PulseAudio v: 14.2 running: yes 
+Network:   Message: No device data found. 
+           IF-ID-1: wlan0 state: up mac: <filter> 
+Drives:    Local Storage: total: 28.91 GiB used: 10.48 GiB (36.2%) 
+           ID-1: /dev/mmcblk0 maj-min: 179:0 model: SLD32G size: 28.91 GiB block-size: 
+           physical: 512 B logical: 512 B type: SSD serial: <filter> rev: 0x8 scheme: GPT 
+           SMART Message: Unknown smartctl error. Unable to generate data. 
+Partition: ID-1: / raw-size: 27.15 GiB size: 26.55 GiB (97.81%) used: 9.65 GiB (36.3%) fs: ext4 
+           dev: /dev/mmcblk0p2 maj-min: 179:2 
+           ID-2: /boot/efi raw-size: 256 MiB size: 252 MiB (98.46%) used: 314 KiB (0.1%) fs: vfat 
+           dev: /dev/mmcblk0p1 maj-min: 179:1 
+Swap:      Kernel: swappiness: 15 (default 60) cache-pressure: 100 (default) 
+           ID-1: swap-1 type: partition size: 1.5 GiB used: 847.5 MiB (55.2%) priority: -2 
+           dev: /dev/mmcblk0p3 maj-min: 179:3 
+Sensors:   System Temperatures: cpu: 72.0 C mobo: N/A 
+           Fan Speeds (RPM): N/A 
+Repos:     Packages: 1934 note: see --pkg apt: 1928 lib: 958 flatpak: 0 snap: 6 
+           No active apt repos in: /etc/apt/sources.list 
+           Active apt repos in: /etc/apt/sources.list.d/charm.list 
+           1: deb [signed-by=/etc/apt/keyrings/charm.gpg] https://repo.charm.sh/apt/ * *
+           Active apt repos in: /etc/apt/sources.list.d/debian-stable-updates.list 
+           1: deb http://deb.debian.org/debian bullseye-updates main contrib non-free
+           Active apt repos in: /etc/apt/sources.list.d/debian.list 
+           1: deb http://ftp.kaist.ac.kr/debian bullseye main contrib non-free
+           2: deb http://security.debian.org/debian-security bullseye-security main contrib non-free
+           Active apt repos in: /etc/apt/sources.list.d/microsoft-prod.list 
+           1: deb [arch=amd64,arm64,armhf] https://packages.microsoft.com/debian/11/prod bullseye main
+           Active apt repos in: /etc/apt/sources.list.d/mx.list 
+           1: deb https://mirrors.tuna.tsinghua.edu.cn/mxlinux/mx/repo/ bullseye main non-free
+           Active apt repos in: /etc/apt/sources.list.d/nodesource.list 
+           1: deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_16.x bullseye main
+           2: deb-src [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_16.x bullseye main
+Info:      Processes: 259 Uptime: 1h 4m wakeups: 138 Memory: 1.85 GiB used: 1.71 GiB (92.6%) 
+           Init: systemd v: 247 runlevel: 5 default: 5 tool: systemctl Compilers: gcc: 10.2.1 
+           alt: 10 Client: shell wrapper v: 5.1.4-release inxi: 3.3.06 
+Boot Mode: UEFI
